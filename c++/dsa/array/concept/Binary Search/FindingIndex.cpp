@@ -10,9 +10,9 @@ int main()
     int st = 0;
     int end = vec.size() - 1;
 
-    while (st <= end)
+    while (st <= end)   
     {
-        int mid = st+ (end - st) / 2;
+        int mid = st + (end - st) / 2;
         if (vec[mid] < target)
         {
             st = mid + 1;
