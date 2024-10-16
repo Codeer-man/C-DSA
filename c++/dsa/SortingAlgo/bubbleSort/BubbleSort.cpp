@@ -4,6 +4,8 @@ using namespace std;
 // Bubble sort
 // Time Complexity  O(n^2)
 
+// All the sorting are done in ascending order but if you want to do the sorting in the descending order then you have to change the
+// greateter than to smaller than (> to <) and smaller than to greateter than (< to >)
 void BubbleSort(int arr[], int n)
 {
     for (int i = 0; i < n - 1; i++)

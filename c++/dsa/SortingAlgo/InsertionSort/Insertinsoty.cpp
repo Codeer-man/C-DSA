@@ -4,6 +4,9 @@ using namespace std;
 // Insertion Sort
 // Time complexity O(n^2)
 
+// All the sorting are done in ascending order but if you want to do the sorting in the descending order then you have to change the
+// greateter than to smaller than (> to <) and smaller than to greateter than (< to >)
+
 void insertionSort(int arr[], int n)
 {
     for (int i = 1; i < n; i++)
