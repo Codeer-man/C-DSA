@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+//Dutch National Flag Algo
 // sort of array of 0s,1s,2s
 // Time complexity of O(n)
 void Sort(int nums[], int n)
