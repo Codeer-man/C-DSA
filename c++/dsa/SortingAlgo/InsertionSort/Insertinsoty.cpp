@@ -5,7 +5,7 @@ using namespace std;
 // Time complexity O(n^2)
 
 // All the sorting are done in ascending order but if you want to do the sorting in the descending order then you have to change the
-// greateter than to smaller than (> to <) and smaller than to greateter than (< to >)
+// greateter than to smaller than (> to <) and smaller than to greateter than (< to >) to it's requirement
 
 void insertionSort(int arr[], int n)
 {
