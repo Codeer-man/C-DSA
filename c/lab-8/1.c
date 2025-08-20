@@ -1,3 +1,6 @@
+/*Write a program to create a structure Employee with members: id (integer), name (string), and salary (float).
+Accept details of multiple employees and display those earning more than a user-defined salary threshold.
+Also Find and display the employee with the highest salary. */
 
 
 #include <stdio.h>
@@ -11,19 +14,16 @@ struct Employee {
 
 int main() {
     int n, i;
-    
-    printf("Enter number of employees: ");
-    scanf("%d", &n);
 
+    printf("Enter number of data");
+    scanf("%d",&n);
     struct Employee emp[n];
 
     // Input employee details in two lines
     for(i = 0; i < n; i++) {
-        printf("\nEnter ID: ");
-        scanf("%d", &emp[i].id);
-
         printf("Enter Name and Salary (respectively): ");
-        scanf(" %[^\n]s %f", emp[i].name, &emp[i].salary); // name with spaces and salary
+        emp[i].id = i+1;
+        scanf("%s %f",&emp[i].name,&emp[i].salary);
     }
 
     // Display all employees
